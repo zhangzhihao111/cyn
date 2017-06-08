@@ -1,0 +1,419 @@
+@import url(reset.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.85rem;
+  background: #f94355;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  text-align: center;
+}
+.container header h2 {
+  height: 0.6rem;
+  font-size: 0.32rem;
+  -webkit-box-flex: 1;
+  margin-right: 0.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  font-weight: lighter;
+  border-radius: 0.05rem;
+}
+.container header h2 .ip1 {
+  border-radius: 0.05rem;
+  color: #F9384B;
+  background: #FFFFFF;
+}
+.container header h2 p {
+  -webkit-box-flex: 1;
+  padding-top: 0.05rem;
+}
+.container header .img1 {
+  width: 1.06rem;
+  height: 0.4rem;
+  background: none;
+}
+.container header .img1 img {
+  width: 0.35rem;
+  height: auto;
+  background: none;
+}
+.container header .img {
+  width: 0.35rem;
+  height: 0.4rem;
+  background: none;
+}
+.container header .img img {
+  width: 100%;
+  height: auto;
+  background: none;
+  margin-left: 0.4rem;
+}
+.container header span {
+  display: block;
+  -webkit-box-flex: 1;
+  font-size: 0.34rem;
+  color: #ffffff;
+  margin-right: 0.4rem;
+  font-weight: lighter;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+  overflow: auto;
+}
+.container section .iptop {
+  width: 100%;
+  height: 0.88rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+.container section .iptop .ipcenter {
+  width: 100%;
+  height: 0.5rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  margin: 0 .35rem;
+  text-align: center;
+  margin-top: .2rem;
+}
+.container section .iptop .ipcenter .iptop1 {
+  width: 1.5rem;
+  height: 0.5rem;
+  background: #cccccc;
+  border-radius: .8rem;
+  font-size: 0.3rem;
+  margin: 0 0.1rem;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.container section .iptop .ipcenter .iptop2 {
+  width: 1.5rem;
+  height: 0.5rem;
+  background: #f9384b;
+  border-radius: .8rem;
+  font-size: 0.3rem;
+  margin: 0 0.1rem;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.container section .ipnav {
+  height: .9rem;
+  margin: 0 .15rem;
+  background: #ffffff;
+}
+.container section .fans1 {
+  width: 100%;
+  height: 1.16rem;
+  background: #ffffff;
+  border-bottom: 1px solid #B0B0B0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .fans1 .fansl {
+  width: 1.12rem;
+  height: 1.16rem;
+  background: none;
+  margin-left: 0.37rem;
+}
+.container section .fans1 .fansl img {
+  width: 1.12rem;
+  height: auto;
+  background: none;
+}
+.container section .fans1 .fansc {
+  -webkit-box-flex: 1;
+  margin-top: 0.24rem;
+  height: 0.7rem;
+  margin-left: 0.3rem;
+  font-size: 0.25rem;
+  position: relative;
+}
+.container section .fans1 .fansc span {
+  color: #b0b0b0;
+}
+.container section .fans1 .fansc .fimg {
+  width: 0.26rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0;
+  left: -0.3rem;
+}
+.container section .fans1 .fansr {
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+  width: 1.04rem;
+  height: 0.55rem;
+  background: none;
+}
+.container section .fans1 .fansr img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.container section .ontop {
+  height: 0.66rem;
+  margin: 0 0.4rem;
+  font-size: 0.3rem;
+  margin-top: 0.8rem;
+  color: #B0B0B0;
+}
+.container section .ontop1 {
+  height: 0.6rem;
+  margin: 0 0.4rem;
+  font-size: 0.25rem;
+  margin-top: 1.34rem;
+  color: #757575;
+  border-bottom: 1px solid #B0B0B0;
+}
+.container section .ontop1 span {
+  font-size: 0.28rem;
+  margin-left: 0.24rem;
+}
+.container section .ontop1 a {
+  color: #B0B0B0;
+}
+.container section .ontop2 {
+  height: 0.6rem;
+  margin: 0 0.4rem;
+  font-size: 0.25rem;
+  margin-top: 0.3rem;
+  color: #757575;
+  border-bottom: 1px solid #B0B0B0;
+}
+.container section .ontop2 span {
+  font-size: 0.25rem;
+  margin-left: 0.24rem;
+  color: #B0B0B0;
+}
+.container section .ontop2 a {
+  color: #333333;
+  font-size: 0.3rem;
+}
+.container section .top {
+  margin-top: 0.1rem;
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  background: #ffffff url("../img/返回-副本-2.png") no-repeat right 0.38rem center;
+  background-size: 0.14rem;
+  border-bottom: 1px solid #E6E6E6;
+}
+.container section .top span {
+  display: block;
+  padding-top: 0.25rem;
+  margin-left: 0.4rem;
+  font-size: 0.27rem;
+  font-weight: lighter;
+}
+.container section .top1 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  background: #ffffff url("../img/返回-副本-2.png") no-repeat right 0.38rem center;
+  background-size: 0.14rem;
+  border-bottom: 1px solid #E6E6E6;
+}
+.container section .top1 span {
+  display: block;
+  padding-top: 0.25rem;
+  margin-left: 0.4rem;
+  font-size: 0.27rem;
+  font-weight: lighter;
+}
+.container section .top3 {
+  width: 100%;
+  height: 1.2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #E6E6E6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .top3 span {
+  display: block;
+  padding-top: 0.25rem;
+  margin-left: 0.4rem;
+  font-size: 0.27rem;
+  font-weight: lighter;
+  -webkit-box-flex: 1;
+}
+.container section .top3 .headimg1 {
+  margin-right: .3rem;
+}
+.container section .top3 .headimg1 img {
+  width: 0.98rem;
+  height: auto;
+  background: none;
+}
+.container section .top2 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  border-bottom: 1px solid #E6E6E6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .top2 span {
+  display: block;
+  padding-top: 0.25rem;
+  margin-left: 0.4rem;
+  font-size: 0.27rem;
+  font-weight: lighter;
+  -webkit-box-flex: 1;
+}
+.container section .top2 a {
+  font-size: 0.28rem;
+  display: block;
+  color: #cdcdcd;
+  margin-top: 0.26rem;
+  margin-right: 0.3rem;
+}
+.container section .red {
+  width: 6.7rem;
+  height: 0.9rem;
+  background: #f9384b;
+  margin-top: 2.5rem;
+  border-radius: 0.14rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.35rem;
+  color: #ffffff;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.container section .red p {
+  margin-top: 0.26rem;
+}
+.container .cen {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999999;
+}
+.container .cen .center {
+  width: 4.5rem;
+  height: 2.4rem;
+  background: #ffffff;
+  border-radius: 0.14rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  bottom: 61%;
+  text-align: center;
+  -webkit-box-align: center;
+}
+.container .cen .center h3 {
+  height: 0.5rem;
+  padding-top: 0.3rem;
+  font-size: 0.27rem;
+  text-align: left;
+  margin: 0 0.5rem;
+  border-bottom: 1px solid #E6E6E6;
+  -webkit-box-align: end;
+}
+.container .cen .center .p {
+  font-size: 0.28rem;
+  height: 1.48rem;
+}
+.container .cen .center .p p {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.74rem;
+  left: 50%;
+  margin-left: -0.74rem;
+}
+.container .cen .center .p span {
+  display: block;
+  width: 4.15rem;
+  height: 0.67rem;
+  background: none;
+  margin: 0 auto;
+}
+.container .cen .center .pp {
+  font-size: 0.28rem;
+  height: 0.77rem;
+  margin-top: 0.1rem;
+}
+.container .cen .center .pp p {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.74rem;
+  left: 50%;
+  margin-left: -0.74rem;
+  border: none;
+}
+.container .cen .center .pp span {
+  display: block;
+  width: 4.15rem;
+  height: 0.67rem;
+  background: none;
+  margin: 0 auto;
+  border: none;
+}
+.container .cen .center h6 {
+  color: #efefef;
+  font-size: 0.26rem;
+  height: 0.5rem;
+  margin-top: 0.25rem;
+}
+.container .cen .center span {
+  font-size: 0.28rem;
+  height: 0.68rem;
+  border-top: 1px solid #B0B0B0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .cen .center span a {
+  display: block;
+  margin-top: 0.22rem;
+  -webkit-box-flex: 1;
+  color: #333333;
+}
+.container .cen .center span .aa {
+  display: block;
+  color: #ff9914;
+  border-left: 1px solid #E6E6E6;
+}
+.container .cen .center .pa {
+  font-size: 0.28rem;
+  height: 0.77rem;
+  border-top: 1px solid #ff9914;
+  width: 4rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin: 0 auto;
+}
+.container .cen .center .pa a {
+  display: block;
+  margin-top: 0.22rem;
+  -webkit-box-flex: 1;
+  color: #333333;
+}
+.container .cen .center .pa .aa {
+  display: block;
+  color: #f94d5d;
+  border-left: 1px solid #E6E6E6;
+}

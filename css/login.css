@@ -1,0 +1,285 @@
+@import url(reset.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 4.67rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header .header {
+  width: 100%;
+  height: 3.15rem;
+  background: none;
+  background: url("../img/0-24.png") no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  position: relative;
+}
+.container header .header .headimg {
+  margin-top: 0.35rem;
+}
+.container header .header .headimg img {
+  width: 1.58rem;
+  height: auto;
+  background: none;
+}
+.container header .header h6 {
+  color: #ffffff;
+  font-size: 0.35rem;
+  font-weight: lighter;
+}
+.container header .header .top {
+  width: 1.4rem;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.35rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container header .header .top .tleft {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  margin-right: 0.5rem;
+}
+.container header .header .top .tright {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.container header .header .bot {
+  width: 1.8rem;
+  height: 0.5rem;
+  background: none;
+  background: url("../img/圆角矩形-5.png") no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  top: 0.95rem;
+  right: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  color: #FFFFFF;
+  text-align: center;
+  -webkit-box-align: center;
+}
+.container header .header .bot span {
+  display: block;
+  width: 0.75rem;
+  font-weight: lighter;
+  font-size: 0.28rem;
+}
+.container header .header .bot p {
+  width: 0.4rem;
+  font-weight: lighter;
+  font-size: 0.2rem;
+}
+.container header .header .bot a {
+  display: block;
+  width: 0.5rem;
+  text-align: center;
+}
+.container header .header .bot a img {
+  width: 0.13rem;
+  height: auto;
+  background: none;
+}
+.container header .headbot {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 1.2rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+.container header .headbot .botl {
+  -webkit-box-flex: 1;
+}
+.container header .headbot .botl p {
+  margin-top: 0.14rem;
+  font-size: 0.26rem;
+}
+.container header .headbot .botl p a {
+  color: #333333;
+}
+.container header .headbot .botl img {
+  margin-top: 0.15rem;
+  width: 0.48rem;
+  height: auto;
+  background: none;
+}
+.container header .headbot .botc {
+  border-left: 1px solid #e6e6e6;
+  padding-left: 0.8rem;
+  border-right: 1px solid #e6e6e6;
+  padding-right: 0.8rem;
+}
+.container header .headbot .botc p {
+  font-size: 0.26rem;
+}
+.container header .headbot .botc .p2 {
+  margin-top: 0.2rem;
+}
+.container header .headbot .botc .p2 a {
+  color: #333333;
+}
+.container header .headbot .botc .p1 {
+  margin-top: 0.15rem;
+}
+.container header .headbot .botc img {
+  width: 0.48rem;
+  height: auto;
+  background: none;
+}
+.container header .headbot .botr {
+  -webkit-box-flex: 1;
+}
+.container header .headbot .botr p {
+  margin-top: 0.14rem;
+  font-size: 0.26rem;
+}
+.container header .headbot .botr p a {
+  color: #333333;
+}
+.container header .headbot .botr img {
+  margin-top: 0.15rem;
+  width: 0.48rem;
+  height: auto;
+  background: none;
+}
+.container section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.container section .line {
+  margin-top: 0.18rem;
+  width: 100%;
+  height: 0.17rem;
+  background: #f3f3f3;
+}
+.container section .line1 {
+  width: 100%;
+  height: 0.17rem;
+  background: #f3f3f3;
+}
+.container section .aline {
+  width: 100%;
+  height: 0.8rem;
+  background: none;
+  border-bottom: 1px solid #E6E6E6;
+  -webkit-box-align: center;
+  background: url("../img/返回-副本-2.png") no-repeat right 0.4rem center;
+  margin-right: 0.4rem;
+  background-size: 0.16rem;
+}
+.container section .aline img {
+  margin-top: 0.23rem;
+  width: 0.32rem;
+  height: auto;
+  background: none;
+  margin-left: 0.38rem;
+}
+.container section .aline .span1 {
+  color: #333333;
+  margin-top: 0.26rem;
+  font-size: 0.3rem;
+  margin-left: 0.17rem;
+}
+.container section .aline span {
+  margin-left: 0.1rem;
+  color: #b0b0b0;
+}
+.container section .aline1 {
+  width: 100%;
+  height: 0.8rem;
+  background: none;
+  border-bottom: 1px solid #E6E6E6;
+}
+.container section .aline1 img {
+  margin-top: 0.23rem;
+  width: 0.32rem;
+  height: auto;
+  background: none;
+  margin-left: 0.38rem;
+}
+.container section .aline1 .span1 {
+  color: #333333;
+  margin-top: 0.26rem;
+  font-size: 0.3rem;
+  margin-left: 0.17rem;
+}
+.container section .aline1 span {
+  margin-left: 0.1rem;
+  color: #b0b0b0;
+}
+.container section .aline2 {
+  width: 100%;
+  height: 0.8rem;
+  background: none;
+  background: url("../img/返回-副本-2.png") no-repeat right 0.4rem center;
+  margin-right: 0.4rem;
+  background-size: 0.16rem;
+}
+.container section .aline2 img {
+  margin-top: 0.23rem;
+  width: 0.32rem;
+  height: auto;
+  background: none;
+  margin-left: 0.38rem;
+}
+.container section .aline2 .span1 {
+  color: #333333;
+  margin-top: 0.26rem;
+  font-size: 0.3rem;
+  margin-left: 0.17rem;
+}
+.container section .aline2 span {
+  margin-left: 0.1rem;
+  color: #b0b0b0;
+}
+.container footer {
+  width: 100%;
+  height: 0.95rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  -webkit-box-align: center;
+}
+.container footer .f1 {
+  -webkit-box-flex: 1;
+}
+.container footer .f1 img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container footer .f2 {
+  -webkit-box-flex: 1;
+}
+.container footer .f2 img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container footer .f3 {
+  -webkit-box-flex: 1;
+}
+.container footer .f3 img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
